@@ -1,0 +1,21 @@
+body {
+    background-color: rgba(17, 255, 176, 0.338);
+}
+
+#pointer {
+    display: flex;
+    justify-content: center;
+}
+
+#point {
+    font-size: 20px;
+    text-align: right;
+}
+
+#point_name {
+    text-align: center;
+}
+
+#point_cell {
+    width: 30%;
+}
