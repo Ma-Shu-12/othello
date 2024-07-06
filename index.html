@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <link href="base.css" rel="stylesheet" type="text/css">
+        <link href="othello_p.css" rel="stylesheet" type="text/css">
+        <link href="othello_f.css" rel="stylesheet" type="text/css">
+        <title>
+            オセロ
+        </title>
+    </head>
+    <body>
+        <header>
+            <h1>オセロ</h1>
+        </header>
+        <nav>
+            <div id="menu">
+                <ul>
+                    <li><a href="home.html">ホーム</a></li>
+                    <li><a href="othello.html">オセロ</a></li>
+                </ul>
+            </div>
+        </nav>
+        <main>
+            <div id="oth_f"></div>
+            <br>
+            <div id="start_b">
+                <button type="button" id="start">Start</button>
+            </div>
+            <br>
+            <div id="start_b">
+                <button type="button" id="start_2">VS CP(White)</button>
+            </div>
+            <div id="start_b">
+                <button type="button" id="start_1">VS CP(Black)</button>
+            </div>
+            <br>
+            <div id="undo_b">
+                <button type="button" id="undo">一手戻す</button>
+            </div>
+            <br>
+            <div id="pointer">
+                <table border="1" id = "point_cell"><tbody>
+                    <tr id="point"><td id="point_name">黒</td><td id="b_point">0</td> <td id="point_name">白</td><td id="w_point">0</td></tr>
+                </tbody></table>
+            </div>
+        </main>
+        <footer>
+            <script type="text/javascript" src="othello_field.js"></script>
+            <script type="text/javascript" src="othello_setup.js"></script>
+            <script type="text/javascript" src="othello_Judge.js"></script>
+            <script type="text/javascript" src="othello_base.js"></script>
+            <script type="text/javascript" src="start.js"></script>
+            <script type="text/javascript" src="undo.js"></script>
+        </footer>
+    </body>
+</html>
