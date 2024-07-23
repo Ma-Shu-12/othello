@@ -117,7 +117,7 @@ function turn_change(pl){
 
     stone[pl].style.color="red";
     if(a==0){
-        turn==0;
+        turn=0;
         if(black_p>white_p){
             setTimeout(function(){alert("黒の勝ちです")},1);
         }else if(black_p<white_p){
